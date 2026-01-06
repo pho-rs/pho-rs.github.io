@@ -29,7 +29,7 @@ aux_links_new_tab: true
 footer_content: "Copyright &copy; 2024. Distributed under the MIT license."
 
 # Цветовая схема (light, dark, или custom)
-color_scheme: light
+color_scheme: custom
 
 # Кнопка "Back to top"
 back_to_top: true

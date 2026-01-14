@@ -2,8 +2,8 @@ title: Название вашей документации
 description: Описание проекта
 theme: just-the-docs
 
-url: https://username.github.io
-baseurl: /repository-name  # оставьте пустым для username.github.io
+url: https://howto.pho.rs
+baseurl: ""
 
 # Настройки навигации
 nav_enabled: true

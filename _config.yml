@@ -1,5 +1,5 @@
-title: Название вашей документации
-description: Описание проекта
+title: О pho.rs
+description: Документация о том, как пользоваться информационной системой pho.rs
 theme: just-the-docs
 
 url: https://howto.pho.rs
@@ -21,12 +21,12 @@ search:
 # Внешние ссылки
 aux_links:
   "GitHub":
-    - "https://github.com/username/repository-name"
+    - "https://github.com/pho-rs/pho-rs.github.io"
 
 aux_links_new_tab: true
 
 # Футер
-footer_content: "Copyright &copy; 2024. Distributed under the MIT license."
+footer_content: ""
 
 # Цветовая схема (light, dark, или custom)
 color_scheme: custom
@@ -34,3 +34,6 @@ color_scheme: custom
 # Кнопка "Back to top"
 back_to_top: true
 back_to_top_text: "Наверх"
+
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.ico"

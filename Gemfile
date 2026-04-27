@@ -17,3 +17,9 @@ gem "http_parser.rb", "~> 0.6.0", platforms: [:jruby]
 
 # Для GitHub Pages
 gem "webrick", "~> 1.8"
+
+# Для Ruby 4.0
+gem "csv"
+gem "base64"
+gem "logger"
+gem "bigdecimal"

@@ -7609,4 +7609,15 @@ div.opaque {
   background-color: #27262b;
 }
 
+.toc-h2-only ul ul {
+  display: none;
+}
+
+.nav-list-item.nav-divider {
+  height: 0;
+  margin: 0.75rem 0;
+  border-top: 1px solid #44434d;
+  pointer-events: none;
+}
+
 /*# sourceMappingURL=just-the-docs-dark.css.map */

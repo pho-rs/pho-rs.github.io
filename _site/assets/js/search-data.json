@@ -48,69 +48,174 @@
     
     "relUrl": "/docs/event/"
   },"7": {
+    "doc": "Не форс",
+    "title": "Опыт организации и проведения мероприятий",
+    "content": "Здесь собран различный опыт, относящийся к проведению мероприятий регионального, федерального и международного уровня. ",
+    "url": "/org/#%D0%BE%D0%BF%D1%8B%D1%82-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9",
+    
+    "relUrl": "/org/#опыт-организации-и-проведения-мероприятий"
+  },"8": {
+    "doc": "Не форс",
+    "title": "Не форс",
+    "content": " ",
+    "url": "/org/",
+    
+    "relUrl": "/org/"
+  },"9": {
+    "doc": "Oly-exams",
+    "title": "Oly-exams",
+    "content": " ",
+    "url": "/org/oly-exams/",
+    
+    "relUrl": "/org/oly-exams/"
+  },"10": {
     "doc": "Главная",
     "title": "На форсе впервые?",
     "content": "Авторизация на сайте происходит на странице https://pho.rs/accounts/login. Если у вас не получается войти, нажмите на кнопку Забыли пароль? и введите адрес своей электронной почты: . Если вы не видите письмо, проверьте папку Спам, а также прочие папки (Рассылки, Оповещения, Промоакции и т.д.). Основная страница сайта показана на фото ниже: . Активные мероприятия отображаются справа, список всех мероприятий – во вкладке Мероприятия. ",
     "url": "/#%D0%BD%D0%B0-%D1%84%D0%BE%D1%80%D1%81%D0%B5-%D0%B2%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5",
     
     "relUrl": "/#на-форсе-впервые"
-  },"8": {
+  },"11": {
     "doc": "Главная",
     "title": "Главная",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"9": {
+  },"12": {
+    "doc": "Установка",
+    "title": "Руководство по установке портала oly-exams",
+    "content": "Содержание . | Системные требования | Предварительная подготовка . | 1. Установка системных зависимостей | 2. Установка uv (современный менеджер Python пакетов; можно использовать pip или poetry) | . | Основная установка . | 1. Создание директории проекта и клонирование | 2. Установка Python зависимостей | 3. Настройка конфигурации | 4. Установка Frontend зависимостей | 5. Инициализация базы данных | 6. Загрузка тестовых данных (опционально) | . | Настройка веб-сервера (Nginx + Gunicorn) . | 1. Установка Gunicorn | 2. Создание конфигурации Nginx | 3. Настройка прав доступа для статических файлов | 4. Запуск приложения через Gunicorn | . | Настройка HTTPS с Let’s Encrypt (обязательно) | Настройка компиляции LaTeX (XeLaTeX + RabbitMQ + Celery) . | 1. Установка XeLaTeX и необходимых пакетов | 2. Установка и запуск RabbitMQ | 3. Запуск Celery-воркера как systemd-сервиса | 4. Проверка работы | Итоговые сервисы | . | Обслуживание и администрирование . | Полезные команды для управления | Обновление проекта | . | Настройка документации (опционально) | Решение распространённых проблем . | 1. Ошибки прав доступа к статическим файлам | 2. Проблемы с базой данных | . | Заключение | . | Репозиторий: https://gitlab.com/oly-exams/exam_tools | Документация: https://oly-exams.org/docs/ | Официальный сайт: https://www.oly-exams.org/ | Исходное руководство: https://docs.mamrenko.ru | . ",
+    "url": "/org/oly-exams/installation.html#%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5-%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D0%BB%D0%B0-oly-exams",
+    
+    "relUrl": "/org/oly-exams/installation.html#руководство-по-установке-портала-oly-exams"
+  },"13": {
+    "doc": "Установка",
+    "title": "Системные требования",
+    "content": "| Параметр | Требование | . | ОС | Ubuntu 24.04 LTS (рекомендуется) или другие Linux дистрибутивы | . | Python | 3.8+ (рекомендуется 3.10+) | . | Память | минимум 2 GB RAM | . | Диск | минимум 10 GB свободного места | . | Сеть | доступ к интернету для установки зависимостей | . ",
+    "url": "/org/oly-exams/installation.html#%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5-%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F",
+    
+    "relUrl": "/org/oly-exams/installation.html#системные-требования"
+  },"14": {
+    "doc": "Установка",
+    "title": "Предварительная подготовка",
+    "content": "1. Установка системных зависимостей . # Обновляем систему sudo apt update &amp;&amp; sudo apt upgrade -y # Устанавливаем необходимые пакеты sudo apt install -y curl build-essential git python3-dev libpq-dev sqlite3 nginx # Устанавливаем Node.js и npm для bower sudo apt install -y nodejs npm sudo npm install -g bower . 2. Установка uv (современный менеджер Python пакетов; можно использовать pip или poetry) . # Установка uv через официальный скрипт curl -LsSf https://astral.sh/uv/install.sh | sh # Добавляем uv в PATH source $HOME/.local/bin/env . ",
+    "url": "/org/oly-exams/installation.html#%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0",
+    
+    "relUrl": "/org/oly-exams/installation.html#предварительная-подготовка"
+  },"15": {
+    "doc": "Установка",
+    "title": "Основная установка",
+    "content": "1. Создание директории проекта и клонирование . # Клонируем репозиторий git clone https://gitlab.com/oly-exams/exam_tools cd exam_tools/ . 2. Установка Python зависимостей . # Синхронизируем зависимости (создает виртуальное окружение автоматически) uv sync # На июнь 2026 не все зависимости корректно отрабатывают на актуальных версиях Python # Например, не устанавливается pillow==9.5.0 для Python 3.11+ # Решается uv add pillow или uv add pillow==10.1.0 # https://pillow.readthedocs.io/en/latest/installation/python-support.html # Проверяем установку Django uv run python manage.py check . 3. Настройка конфигурации . # Копируем пример настроек cp exam_tools/settings_example.py exam_tools/settings.py # Редактируем настройки nano exam_tools/settings.py . Основные параметры для настройки в settings.py: . # Базовые настройки DEBUG = False # Для продакшена ALLOWED_HOSTS = ['your-domain.com', 'www.your-domain.com'] # База данных (по умолчанию SQLite) DATABASES = { 'default': { 'ENGINE': 'django.db.backends.sqlite3', 'NAME': 'ipho.db', } } # Настройки безопасности для продакшена SECRET_KEY = 'your-secret-key-here' # Сгенерировать новый SECURE_SSL_REDIRECT = True # Если используете HTTPS SECURE_BROWSER_XSS_FILTER = True SECURE_CONTENT_TYPE_NOSNIFF = True . 4. Установка Frontend зависимостей . # Переходим в директорию bower и устанавливаем зависимости cd bower/ bower install cd .. 5. Инициализация базы данных . # Применяем миграции uv run python manage.py migrate # Собираем статические файлы (соберутся в папку PROJECT_PATH / collected_static) uv run python manage.py collectstatic --noinput # Создаем суперпользователя (для доступа в админку) uv run python manage.py createsuperuser . 6. Загрузка тестовых данных (опционально) . # Переходим в директорию с данными cd ipho_data/ # Загружаем mock данные для тестирования uv run python postgres_testing_initial_data.py --dataset mock # Или загружаем данные конкретной олимпиады uv run python postgres_testing_initial_data.py --dataset ibo2019 . ",
+    "url": "/org/oly-exams/installation.html#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0",
+    
+    "relUrl": "/org/oly-exams/installation.html#основная-установка"
+  },"16": {
+    "doc": "Установка",
+    "title": "Настройка веб-сервера (Nginx + Gunicorn)",
+    "content": "1. Установка Gunicorn . # Устанавливаем Gunicorn через uv uv add gunicorn . 2. Создание конфигурации Nginx . # Создаем конфигурацию для сайта sudo tee /etc/nginx/sites-available/your-domain.conf &gt;/dev/null &lt;&lt;'NGINX' server { listen 80; listen [::]:80; server_name your-domain.com www.your-domain.com; # Увеличиваем лимит загрузки файлов client_max_body_size 50M; location / { proxy_pass http://127.0.0.1:8000; proxy_set_header Host $host; proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; proxy_redirect off; proxy_read_timeout 300; proxy_connect_timeout 300; proxy_send_timeout 300; } # Статические файлы (рекомендуется для продакшена) location /static/ { alias /path/to/your/project/exam_tools/collected_static/; expires 1y; add_header Cache-Control \"public, immutable\"; } location /media/ { alias /path/to/your/project/exam_tools/media/; expires 1y; add_header Cache-Control \"public\"; } } NGINX # Активируем сайт sudo ln -s /etc/nginx/sites-available/your-domain.conf /etc/nginx/sites-enabled/ # Проверяем конфигурацию sudo nginx -t # Перезагружаем Nginx sudo systemctl reload nginx . # Может потребоваться удалить дефолтный конфиг nginx sudo rm /etc/nginx/sites-enabled/default sudo nginx -t &amp;&amp; sudo systemctl reload nginx . 3. Настройка прав доступа для статических файлов . # Даем права на чтение статических файлов для Nginx sudo chmod o+rx /home sudo chmod o+rx /home/username sudo chmod o+rx /home/username/your-domain.com sudo chmod o+rx /home/username/your-domain.com/exam_tools # Устанавливаем права для статических файлов sudo find /path/to/your/project/exam_tools/collected_static -type d -exec chmod 755 {} \\; sudo find /path/to/your/project/exam_tools/collected_static -type f -exec chmod 644 {} \\; . 4. Запуск приложения через Gunicorn . # Тестовый запуск uv run gunicorn exam_tools.wsgi:application --bind 127.0.0.1:8000 --workers 3 . # Для постоянного запуска используйте screen screen -S oly_exams_server uv run gunicorn exam_tools.wsgi:application --bind 127.0.0.1:8000 --workers 3 # Нажмите Ctrl+A, затем D для отсоединения от screen . # или настройте gunicorn как системный сервис sudo nano /etc/systemd/system/gunicorn.service . [Unit] Description=gunicorn daemon for exam_tools After=network.target [Service] User=root WorkingDirectory=/path/to/your/project/exam_tools ExecStart=/path/to/your/uv run gunicorn exam_tools.wsgi:application --bind 127.0.0.1:8000 --workers 3 Restart=always [Install] WantedBy=multi-user.target . # запуск сервиса sudo systemctl daemon-reload sudo systemctl enable gunicorn sudo systemctl start gunicorn . ",
+    "url": "/org/oly-exams/installation.html#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-nginx--gunicorn",
+    
+    "relUrl": "/org/oly-exams/installation.html#настройка-веб-сервера-nginx--gunicorn"
+  },"17": {
+    "doc": "Установка",
+    "title": "Настройка HTTPS с Let’s Encrypt (обязательно)",
+    "content": "Если не хотите HTTPS, в exam_tools/settings.py нужно установить параметр SECURE_SSL_REDIRECT = False. # Устанавливаем Certbot sudo apt install -y certbot python3-certbot-nginx # Получаем SSL сертификат sudo certbot --nginx -d your-domain.com -d www.your-domain.com # Проверяем автообновление сертификатов sudo certbot renew --dry-run . ",
+    "url": "/org/oly-exams/installation.html#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-https-%D1%81-lets-encrypt-%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE",
+    
+    "relUrl": "/org/oly-exams/installation.html#настройка-https-с-lets-encrypt-обязательно"
+  },"18": {
+    "doc": "Установка",
+    "title": "Настройка компиляции LaTeX (XeLaTeX + RabbitMQ + Celery)",
+    "content": "Портал компилирует экзаменационные материалы в PDF с помощью XeLaTeX. Компиляция выполняется асинхронно через очередь задач: RabbitMQ принимает задания, Celery-воркер их обрабатывает. 1. Установка XeLaTeX и необходимых пакетов . sudo apt install -y texlive texlive-xetex texlive-lang-cjk texlive-lang-greek \\ fonts-roboto fonts-liberation \\ python3-cairosvg pandoc . Пакет ttf-mscorefonts-installer (шрифты Microsoft) требует репозитория multiverse: . sudo add-apt-repository multiverse sudo apt update sudo apt install -y ttf-mscorefonts-installer . Проверка: . xelatex --version . 2. Установка и запуск RabbitMQ . sudo apt install -y rabbitmq-server sudo systemctl enable rabbitmq-server sudo systemctl start rabbitmq-server . Проверка: . sudo rabbitmq-diagnostics status . RabbitMQ должен слушать порт 5672. Конфигурационный файл проекта находится в docker/secrets/unsafe/rabbitmq.conf и использует стандартные учётные данные guest/guest — они совпадают с дефолтными настройками RabbitMQ, поэтому дополнительная настройка не требуется. 3. Запуск Celery-воркера как systemd-сервиса . Создайте файл сервиса: . sudo tee /etc/systemd/system/celery.service &gt; /dev/null &lt;&lt; 'EOF' [Unit] Description=Celery worker for exam_tools After=network.target rabbitmq-server.service Requires=rabbitmq-server.service [Service] User=root WorkingDirectory=/path/to/your/project/exam_tools Environment=C_FORCE_ROOT=1 ExecStart=/path/to/your/uv run celery -A exam_tools worker -E --concurrency=1 Restart=always [Install] WantedBy=multi-user.target EOF . Примечание: C_FORCE_ROOT=1 необходим если сервис запускается от пользователя root. Для продакшена рекомендуется создать отдельного пользователя и убрать эту переменную. Активируйте и запустите: . sudo systemctl daemon-reload sudo systemctl enable celery sudo systemctl start celery sudo systemctl status celery . В выводе status должна присутствовать строка: . transport: amqp://guest:**@localhost:5672// . 4. Проверка работы . # Статус воркера sudo systemctl status celery # Логи в реальном времени journalctl -u celery -f . Итоговые сервисы . | Сервис | Команда управления | . | RabbitMQ | sudo systemctl [start\\|stop\\|restart] rabbitmq-server | . | Celery | sudo systemctl [start\\|stop\\|restart] celery | . | Gunicorn | sudo systemctl [start\\|stop\\|restart] gunicorn | . Все три сервиса настроены на автозапуск при старте сервера. ",
+    "url": "/org/oly-exams/installation.html#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D0%B8-latex-xelatex--rabbitmq--celery",
+    
+    "relUrl": "/org/oly-exams/installation.html#настройка-компиляции-latex-xelatex--rabbitmq--celery"
+  },"19": {
+    "doc": "Установка",
+    "title": "Обслуживание и администрирование",
+    "content": "Полезные команды для управления . # Проверка статуса приложения uv run python manage.py check # Применение новых миграций uv run python manage.py migrate # Обновление статических файлов uv run python manage.py collectstatic --noinput # Создание резервной копии базы данных (SQLite) cp ipho.db ipho_backup_$(date +%Y%m%d_%H%M%S).db # Просмотр логов Nginx sudo tail -f /var/log/nginx/error.log sudo tail -f /var/log/nginx/access.log # Управление screen сессиями screen -ls # Список сессий screen -r session_name # Подключение к сессии screen -S new_session_name # Создание новой сессии . Обновление проекта . # Останавливаем приложение sudo systemctl stop oly-exams # Обновляем код git pull origin master # Обновляем зависимости uv sync # Применяем миграции uv run python manage.py migrate # Собираем статические файлы uv run python manage.py collectstatic --noinput # Запускаем приложение sudo systemctl start oly-exams . ",
+    "url": "/org/oly-exams/installation.html#%D0%BE%D0%B1%D1%81%D0%BB%D1%83%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5",
+    
+    "relUrl": "/org/oly-exams/installation.html#обслуживание-и-администрирование"
+  },"20": {
+    "doc": "Установка",
+    "title": "Настройка документации (опционально)",
+    "content": "# Устанавливаем зависимости для документации uv add mkdocs mkdocs-material pymdown-extensions # Собираем документацию uv run mkdocs build # Проверьте, что в папке exam_tools появилась папка _docs_html . Добавьте в конфигурацию Nginx: . location /docs { alias /path/to/your/project/exam_tools/_docs_html/; index index.html; try_files $uri $uri/ $uri/index.html =404; } . Перезапустить Nginx . sudo nginx -t &amp;&amp; sudo systemctl reload nginx . Могут возникнуть проблемы с правами, тогда нужно выдать Nginx права на папку _docs_html . # Дать Nginx доступ к папке chmod 755 /path/to/your/project # Дать доступ к папке с документацией chmod -R 755 /path/to/your/project/exam_tools/_docs_html/ . ",
+    "url": "/org/oly-exams/installation.html#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8-%D0%BE%D0%BF%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE",
+    
+    "relUrl": "/org/oly-exams/installation.html#настройка-документации-опционально"
+  },"21": {
+    "doc": "Установка",
+    "title": "Решение распространённых проблем",
+    "content": "1. Ошибки прав доступа к статическим файлам . # Проверьте права доступа ls -la /path/to/static/files # Исправьте права если необходимо sudo chown -R www-data:www-data /path/to/static/files sudo chmod -R 755 /path/to/static/files . 2. Проблемы с базой данных . # Проверьте подключение к БД uv run python manage.py dbshell # Сброс и пересоздание БД (осторожно!) rm ipho.db uv run python manage.py migrate uv run python manage.py createsuperuser . ",
+    "url": "/org/oly-exams/installation.html#%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%91%D0%BD%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC",
+    
+    "relUrl": "/org/oly-exams/installation.html#решение-распространённых-проблем"
+  },"22": {
+    "doc": "Установка",
+    "title": "Заключение",
+    "content": "Для получения дополнительной помощи обращайтесь к официальной документации: https://oly-exams.org/docs/ . ",
+    "url": "/org/oly-exams/installation.html#%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5",
+    
+    "relUrl": "/org/oly-exams/installation.html#заключение"
+  },"23": {
+    "doc": "Установка",
+    "title": "Установка",
+    "content": " ",
+    "url": "/org/oly-exams/installation.html",
+    
+    "relUrl": "/org/oly-exams/installation.html"
+  },"24": {
     "doc": "Участнику",
     "title": "Инструкция участнику мероприятия",
     "content": "После входа в мероприятие вам будут доступны его задачи. В столбце Компоненты задачи находятся активные ссылки на условие, решение и/или разбалловку: . По умолчанию в столбце Статус находится значение Обработка. Если по какой-то из задач мероприятия доступна Самопроверка, статус меняется: . Обратите внимание, что баллы, выставленные жюри, не видны сразу же на основной странице мероприятия! . Когда вы начнёте самопроверку, у вас будет доступен для редактирования столбец для проставления баллов: . Также, если это предусмотрено мероприятием, будет виден столбец с проверкой жюри: . Справа будет показана автоматически пересчитываемая сумма баллов, проставленная вами в ходе самопроверки. Если вы хотите быстро обнулить самопроверку, нажмите кнопку Начать проверку сначала. Если вы хотите сохранить самопроверку для дальнейшего редактирования, нажмите кнопку Сохранить проверку. Если это предусмотрено настройками мероприятия, доступно комментирование. Комментарий можно оставить под любым пунктов критериев оценивания. Для этого нажмите на кнопку Комментировать. К каждому пункту критериев можно оставить не более двух комментариев, длиной не более 1000 символов. Удаление комментариев не предусмотрено. Комментарии, которые оставили члены жюри, отмечены плашкой Ж (на этапе самопроверки) и Ф (если что-то было прокомментировано на апелляции). На большинстве олимпиад для дальнейшего рассмотрения вашей самопроверки необходимо её завершить, нажав кнопку Подать апелляцию с такими баллами. Только так члены жюри могут быть уверены, что вы завершили самопроверку и готовы идти на показ работ и апелляцию. Обратите внимание, что после завершения редактирование самопроверки невозможно! . Сохранённая и поданная самопроверки выглядят одинаково на главной странице мероприятия (поэтому убедитесь, что вы действительно её подали): . Суммарный балл за задачу, который вы видите, рассчитан из вашей самопроверки и может отличаться от проверки жюри! . Если в мероприятии доступна проверка жюри, то после завершения самопроверки пункты, в которых вы поставили себе больше баллов, будут подсвечены жёлтым. При этом пункты, где жюри поставило вам больше баллов, подсвечены не будут: . После апелляции статус должен поменяться на Завершено, будет отображаться ваш итоговый балл за задачу, а по кнопке Итоги будут доступны 3 столбца: результат апелляции, проверка жюри, ваша самопроверка соответственно: . Обязательно проверьте, что статус поменялся на Завершено, перед тем как уходить с апелляции. Также проверьте, что итоговый балл за задачу и баллы за интересующие вас пункты соответствуют тому, о чём вы договорились с принимающим апелляцию. Это позволит исключить технические ошибки и недопонимания и ускорит работу оргкомитета. Также на большинстве олимпиад вам будут доступны сканы работ в формате .pdf. Ссылка на них находится рядом с названием задачи: . Если сканов нет, попросите руководителя команды обратиться в оргкомитет. Важно! Обычно сканы расположены в облачных хранилищах (Google Диск, Яндекс.Диск и т.д.) или IPFS. Эти сервисы имеют довольно агрессивную политику в отношении VPN и proxy-серверов. Если ваш скан не открывается, отключите их и попробуйте ещё раз. ",
     "url": "/docs/participant.html#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D1%83-%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F",
     
     "relUrl": "/docs/participant.html#инструкция-участнику-мероприятия"
-  },"10": {
+  },"25": {
     "doc": "Участнику",
     "title": "Участнику",
     "content": " ",
     "url": "/docs/participant.html",
     
     "relUrl": "/docs/participant.html"
-  },"11": {
+  },"26": {
     "doc": "Люди",
     "title": "Люди",
     "content": "Люди . ",
     "url": "/docs/event/people.html",
     
     "relUrl": "/docs/event/people.html"
-  },"12": {
+  },"27": {
     "doc": "Задачи, наборы и права",
     "title": "Задачи, наборы и права",
     "content": "Задачи, наборы и права . ",
     "url": "/docs/event/problems.html",
     
     "relUrl": "/docs/event/problems.html"
-  },"13": {
+  },"28": {
     "doc": "Статистика",
     "title": "Статистика",
     "content": "Статистика . ",
     "url": "/docs/event/statistics.html",
     
     "relUrl": "/docs/event/statistics.html"
-  },"14": {
+  },"29": {
     "doc": "Руководителю команды",
     "title": "Инструкция руководителю команды/сопровождающему",
     "content": "После входа в мероприятие вам будут доступны его задачи. В столбце Компоненты задачи находятся активные ссылки на условие, решение и/или разбалловку: . Результаты школьников по какой-либо задаче доступны в столбце Проверка. Перейдите на эту страницу (https://pho.rs/e/{event_id}/lead/p/{problem_id}). Здесь вы увидите всех участников и их текущий статус по этой задаче. К примеру, если проверка задачи ещё не закончилась, вы увидите статусы Проверка делегацией недоступна, Самопроверка не создана и Идёт проверка: . Если проверка завершена, но самопроверка школьниками пока недоступна, вы увидите статусы Самопроверка недоступна и Апелляция не начата: . После окончания проверки в столбце Жюри в проверенных работах статус изменится на Завершено. Как только школьникам станет доступна самопроверка, статус изменится на Доступна самопроверка, а после подачи апелляции - на Самопроверка завершена. Если в мероприятии предусмотрена возможность видеть баллы, выставленные жюри, они станут видны в этом же столбце, иначе будет значение Скрыто. Если самопроверка зав, но баллы жюри пока не выставлены, в столбце Жюри будет значится N/A. Рядом с незавершёнными самопроверками и апелляциями находится приписка не завершена. Как только будет начала апелляция, статус в столбце Апелляция изменится на Идет апелляция. У школьников, которые уже пришли на апелляцию, будет доступна страница просмотра: . При переходе на страницу Просмотр будет видно, за какие пунты поставило баллы жюри, какие пункты школьник отметил в самопроверке и что было поставлено по итогам апелляции. Пункты, где в самопроверке поставлено больше баллов, подсвечены жёлтым: . После завершения апелляции кнопка Просмотр меняется на кнопку Итоги с тем же содержимым, статус в столбце Апелляция изменится на Завершнено, а также будут отображаться итоговые баллы: . ",
     "url": "/docs/teamleader.html#%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8E-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%D1%81%D0%BE%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B6%D0%B4%D0%B0%D1%8E%D1%89%D0%B5%D0%BC%D1%83",
     
     "relUrl": "/docs/teamleader.html#инструкция-руководителю-командысопровождающему"
-  },"15": {
+  },"30": {
     "doc": "Руководителю команды",
     "title": "Руководителю команды",
     "content": " ",
     "url": "/docs/teamleader.html",
     
     "relUrl": "/docs/teamleader.html"
-  },"16": {
+  },"31": {
     "doc": "Команды",
     "title": "Команды",
     "content": "Команды . ",

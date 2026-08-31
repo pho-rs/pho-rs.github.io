@@ -102,7 +102,7 @@ nano exam_tools/settings.py
 ```python
 # Базовые настройки
 DEBUG = False  # Для продакшена
-ALLOWED_HOSTS = ['your-domain.com', 'www.your-domain.com']
+ALLOWED_HOSTS = ['your-domain.com', 'www.your-domain.com', 'localhost', '127.0.0.1'] # localhost - обязателен
 
 # База данных (по умолчанию SQLite)
 DATABASES = {

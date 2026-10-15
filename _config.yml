@@ -37,3 +37,7 @@ back_to_top_text: "Наверх"
 
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
+
+# Диаграммы Mermaid (раздел Максвелл)
+mermaid:
+  version: "11.16.0"

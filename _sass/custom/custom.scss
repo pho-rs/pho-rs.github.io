@@ -10,3 +10,19 @@
   border-top: 1px solid $border-color;
   pointer-events: none;
 }
+
+// Нумерованные пункты документов (раздел Максвелл)
+p.point { padding-left: 2.2em; text-indent: -2.2em; }
+p.point + ul { margin-left: 2.2em; }
+
+// Mermaid: foreignObject в узлах по умолчанию обрезает длинные слова,
+// которые не помещаются по ширине (особенно заметно в Firefox) —
+// разрешаем перенос и не обрезаем вместо этого
+.language-mermaid foreignObject {
+  overflow: visible;
+}
+.language-mermaid foreignObject p,
+.language-mermaid foreignObject span.nodeLabel {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}

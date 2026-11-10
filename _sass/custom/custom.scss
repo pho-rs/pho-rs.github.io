@@ -11,6 +11,20 @@
   pointer-events: none;
 }
 
+// Плавающая кнопка "Наверх" — по умолчанию она в подвале страницы,
+// на больших документах до неё приходится долго скроллить
+#back-to-top {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background-color: $sidebar-color;
+  border: 1px solid $border-color;
+  border-radius: 2em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
 // Нумерованные пункты документов (раздел Максвелл)
 p.point { padding-left: 2.2em; text-indent: -2.2em; }
 p.point + ul { margin-left: 2.2em; }
